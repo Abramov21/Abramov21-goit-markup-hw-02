@@ -1,0 +1,155 @@
+:root {
+    --primary-color: rgba(33, 33, 33, 1);
+    --second-color: rgba(117, 117, 117, 1);
+    --title-text-color: #000000;
+    --accent-color: rgba(255, 255, 255, 0.6);
+    --primary-white-color: rgba(255, 255, 255, 1);
+    --second-accent-color: rgba(33, 150, 243, 1);
+    --primary-bth-color :rgba(245, 244, 250, 1);
+    --avtive-bth-color: rgba(33, 150, 243, 1);
+}
+
+
+body {
+    font-size: 16px;
+    line-height: 1.14;
+    font-family: Roboto;
+   color: var(--primary-color);
+   font-weight: 400;
+}
+
+
+/* header*/
+
+/* header  webStudio*/
+.header-link{
+  color: var(--primary-color);
+  font-family: Raleway;
+  font-weight: 700;
+  line-height: 1.19;
+}
+.header-link:hover
+.header-link:focus
+ {
+  background: var( --avtive-bth-color);
+}
+
+/* header  link*/
+
+.header-nav-list-link{
+  color: var(--primary-color);
+}
+
+
+
+/* header  items*/
+.header-items-link{
+  color: var(--second-color);
+}
+
+.header-item-link{
+  color: var(--second-accent-color);
+}
+
+
+/*  section-title  */
+.section-title{
+  line-height: 1.36;
+}
+
+
+/*  buttons  */
+.section .bth{
+  font-weight: 700;
+  line-height: 1.875;
+  background: var(--second-accent-color);
+  color: var(--primary-white-color)
+ }
+
+.section .bth :active{
+cursor: pointer;
+}
+.section .bth:hover{
+  cursor: pointer;
+}
+.section .bth:focus{
+  cursor: pointer;
+}
+
+
+/*  main  */
+
+.section-list-text{
+  color: var(--second-color);
+  line-height: 1.7;
+}
+
+.section-list-title{
+  font-weight: 700;
+}
+
+/* наша команда  */
+.section-title{
+  font-weight: 900;
+  line-height: 1.16;
+}
+
+.section-list-caption{
+  font-weight: 500;
+  line-height: 1.18;
+}
+
+.section-list-desc{
+  color: var(--second-color);
+   line-height: 1.18;
+}
+
+/*  fotter  */
+
+.footer-link{
+  color: var(--primary-color);
+  font-family: Raleway;
+  font-weight: 700;
+}
+
+
+.footer-list-links{
+  color: var(--second-color);
+}
+
+.footer-list-link{
+  color: var(--primary-white-color);
+}
+
+
+/* портфолио */
+/* bth  */
+
+.section-list-bth{
+  font-weight: 700;
+  line-height: 1.875;
+  background: var(--primary-bth-color);
+}
+
+
+.section-list-bth:hover{
+  color: var(--title-text-color);
+  cursor: pointer;
+}
+.section-list-bth:focus{
+  color: var(--title-text-color);
+  cursor: pointer;
+}
+
+
+/* Выполненые работы */
+
+.section-items-title{
+  line-height: 2;
+  font-weight: 700;
+}
+
+.section-items-text{
+  color: var(--second-color);
+  line-height: 1.875;
+}
