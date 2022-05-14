@@ -15,21 +15,37 @@ body {
     line-height: 1.14;
     font-family: Roboto;
    color: var(--primary-color);
-   font-weight: 400;
+   letter-spacing: 0.03em;
 }
+
+
+/*  utilities  */
+
+.link{
+  text-decoration: none;
+}
+
+.list{
+  list-style: none;
+}
+
+.section-title{
+  line-height: 1.36;
+}
+
 
 
 /* header*/
 
 /* header  webStudio*/
-.header-link{
+.header .link{
   color: var(--primary-color);
   font-family: Raleway;
   font-weight: 700;
   line-height: 1.19;
 }
-.header-link:hover
-.header-link:focus
+.header .link:hover
+.header .link:focus
  {
   background: var( --avtive-bth-color);
 }
@@ -43,12 +59,11 @@ body {
 
 
 /* header  items*/
-.header-items-link{
-  color: var(--second-color);
-}
 
-.header-item-link{
-  color: var(--second-accent-color);
+
+.header .iteam link{
+  color: red;
+  text-decoration: none;
 }
 
 
@@ -106,19 +121,22 @@ cursor: pointer;
 
 /*  fotter  */
 
-.footer-link{
+.footer .link{
   color: var(--primary-color);
   font-family: Raleway;
   font-weight: 700;
+  text-decoration: none;
 }
 
 
-.footer-list-links{
+.footer .links{
   color: var(--second-color);
+  text-decoration: none;
 }
 
 .footer-list-link{
   color: var(--primary-white-color);
+  text-decoration: none;
 }
 
 
