@@ -51,7 +51,6 @@ body {
 
 .nav-link,
 .contact-link {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -103,6 +102,11 @@ color: var(--primary-white-color);
   color: var(--primary-white-color);
 }
 
+.bth:hover,
+.bth:focus{
+background-color: #188CE8;;
+}
+
 /* specifics */
 .specifics-title{
   font-size: 14px;
@@ -117,18 +121,19 @@ color: var(--primary-white-color);
 /* about */
 
 
-
 /* team */
 
+.team{
+  background-color: #F5F4FA;;
+}
+
 .team-name{
-  font-family: 'Roboto';
-  font-weight: 500;
+    font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
 }
 
 .team-position{
-  font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -149,6 +154,7 @@ color: var(--primary-white-color);
 .footer-adress{
   font-style: normal ;
   color: var(--primary-white-color);
+  text-decoration: none;
 }
 
 .footer .contact-link{
@@ -159,28 +165,34 @@ color: var(--primary-white-color);
 
 /*  Портфоліо  */
 
-.buttons .bth{
+.works-buttons .bth{
   color: var(--primary-color);
   cursor: pointer;
   background: #F5F4FA;
   border-radius: 4px;
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
 }
 
+.works-buttons .bth:hover,
+.works-buttons .bth:focus{
+  background:var(--accent-color);
+  color: var(--primary-white-color);
+  }
+
 .works-title{
-  font-family: 'Roboto';
   font-size: 18px;
   line-height: 2.0;
   letter-spacing: 0.06em;
+  color: var(--primary-color);
+  text-decoration: none;
 }
 
 .works-kinds{
-  font-family: 'Roboto';
   font-size: 16px;
   line-height: 1.88;
   color: var(--second-color);
+  text-decoration: none;
 }
